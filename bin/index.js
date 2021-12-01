@@ -3,12 +3,12 @@
  * @Author: xiangfu.wu
  * @Date: 2021-09-01 16:32:39
  * @Description: 🚀
- * @FilePath: \irelia-cli\bin\index.js
+ * @FilePath: /irelia-cli/bin/index.js
  */
 
 const { program } = require('commander'); 
-// const lib = require('irelia-cli-lib');
-// console.log(lib)
+const lib = require('irelia-cli-lib');
+console.log(lib)
 // console.log('welcome irelia-cli 5153')
 
 program
